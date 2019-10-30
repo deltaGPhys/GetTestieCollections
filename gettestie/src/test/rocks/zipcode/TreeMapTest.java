@@ -58,7 +58,7 @@ public class TreeMapTest {
 
     @Test
     public void treeMapTest4() {
-
+        // not great, since different people could have the same birth year, but fine for this data set
         Person[] sorted = treeMap.values().toArray(new Person[treeMap.size()]);
         Assert.assertEquals(person3,sorted[0]);
         Assert.assertEquals(person2,sorted[treeMap.size()-1]);
