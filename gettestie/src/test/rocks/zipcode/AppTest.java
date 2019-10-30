@@ -1,8 +1,7 @@
 package rocks.zipcode;
 
+import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Unit test for simple App.
@@ -10,9 +9,10 @@ import static org.junit.Assert.*;
 public class AppTest {
     /**
      * Rigorous Test.
+     *
      */
     @Test
     public void testApp() {
-        assertTrue(true);
+        Assert.assertTrue(true);
     }
 }
